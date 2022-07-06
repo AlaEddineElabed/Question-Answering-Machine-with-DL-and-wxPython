@@ -1,0 +1,81 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+        },
+		,
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!","cya"],
+        },
+		{"tag": "Introduction",
+         "patterns": ["What the hell is OSSEC","What do you wish to accomplish in this club"],
+         "responses": ["OSSEC(open source software ensi club) goal is to establish the philosophy of open-source and sharing among ENSI students."],
+        },
+		{"tag": "Axes",
+         "patterns": ["what are the different axes available in ossec", "what do you work on in ossec"],
+         "responses": ["There's 4 axes in OSSEC: Events, Projects, Magazines and trainings axe!"],
+        },
+        {"tag": "events",
+         "patterns": ["what are the events organized by OSSEC throughout the year", "what are your events"],
+         "responses": ["We have three main events organized during the year. Shell coding, TUNIHACK and Install Party."],
+        },
+        {"tag": "Shell Coding",
+         "patterns": ["can you inform me more about the shell coding challenge ", "Can I participate in the shell coding challenge"],
+         "responses": ["Shell coding challenge is an event where we test our members about the skills they acquired in shell coding.We also have prizes for the winners!"],
+        },
+        {"tag": "TUNIHACK",
+         "patterns": ["What is tunihack", "Can i participate in tunihack", "What are the requirements to participate in tunihack"],
+         "responses": ["Tunihack is an event where participants will compete in 24-hour challenge where they code to tackle real life. Students from all over the country are eligible to participate in teams.There will also be alot of workshops,conferences and fun activities so stay tuned !"],
+        },
+        {"tag": "Install Party",
+         "patterns": ["What is the install Party", "what do you do in the install party", "will we install the linux distribution in the install party"],
+         "responses": ["The install party is our first contact with the new members of OSSEC where we help them install linux distribution on their personal computer"],
+        }
+		{"tag": "Tunihack date",
+         "patterns": ["when will be the next Tunihack", "what will be the date of the next Tunihack"],
+         "responses": ["A date still isn't fixed but follow our social media pages to stay updated!"],
+        }
+		{"tag": "shell Coding date",
+         "patterns": ["when will be the next Shell coding challenge", "what will be the date of the next coding shell challenge"],
+         "responses": ["A date still isn't fixed but follow our social media pages to stay updated!"],
+        }
+		{"tag": "Tunihack Install Party",
+         "patterns": ["when will be the next Install party ", "what will be the date of the next Install party"],
+         "responses": ["A date still isn't fixed but follow our social media pages to stay updated!"],
+        }
+		{"tag": "trainings",
+         "patterns": ["what are the skills I can gain from OSSEC trainings", "what can I learn from joining OSSEC"],
+         "responses": ["You can widen your skills in Linux, Android, Web and AI with us!"],
+		}
+		{"tag": "Web",
+         "patterns": ["what are the skills I can gain from OSSEC web trainings","tell me more about web trainings" ,"what are the different topics in web development that you cover in your trainings"],
+         "responses": ["In the first semester we will give to our members an introduction of web development.Train them with HTML, CSS, Bootstrap, Javascript and PHP+SQL. In the second semester, we offer a certification in ReactJs that will help you enrich your Curriculum vitae!"],
+		}
+		{"tag": "Linux",
+         "patterns": ["what are the skills I can gain from OSSEC Linux trainings","tell me more about Linux trainings" ,"what are the different topics in Linux  that you cover in your trainings"],
+         "responses": ["In the first semester we will give to our members an introduction to unix/linux as well as how to install it in their personal computer and the basic commands.In the second Semester, we will dive deeper into shell scrips, filters and process management."],
+		}
+		{"tag": "Android",
+         "patterns": ["what are the skills I can gain from OSSEC Android trainings","tell me more about Android trainings" ,"what are the different topics in Android that you cover in your trainings"],
+         "responses": ["We will offer our members a certified training in Android"],
+		}
+		{"tag": "AI",
+         "patterns": ["what are the skills I can gain from OSSEC AI trainings","tell me more about AI trainings" ,"what are the different topics in AI that you cover in your trainings"],
+         "responses": ["We will offer our members a certified training in Android as well as workshops with AI experts."],
+		}
+		{"tag": "magazines",
+         "patterns": ["where can i find OSSEC published magazines"],
+         "responses": ["In our website"],
+		}
+		{"tag": "Projects",
+         "patterns": ["what kind of projects do you do in OSSEC"],
+         "responses": ["In the second semester, we do web and AI projects"],
+		}
+		{"tag": "Credits",
+         "patterns": ["Who's behind this Chatbot", "Who created you, Mr.Bot", "What is this Chatbot", "Are you a bot","is this a bot","I think you're a bot"],
+         "responses": ["Yup, I am a Chatbot creating by Khaled Krichen,Ala Eddine Elabed,Rawan Ghoudi,Achref Abidi, Med Amine Chargui and Siwar Belloumi in order to help you know more about OSSEC."],
+        }
+		
+   ]
+}

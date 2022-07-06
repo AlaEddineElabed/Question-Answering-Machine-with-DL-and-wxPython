@@ -1,0 +1,91 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Hey", "Hello", "Hey there!","Hi there", "How are you", "How are you doing", "Is anyone there?", "Whats up", "What's new","Good morning", "Good evening", "Good afternoon", "Good day","Howday!", "Yo!", "Sup?", "Whatzzup?", "G'day", "How r u?", "how's it going?"],
+         "responses": ["Hi. I'm a chatbot speaking on behalf of  OSSEC. Feel free to ask me anything.", "Hi there, how can I help?"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["See you later", "See you!", "See ya!", "Be seeing you!", "See you soon!", "Talk to you later", "Goodbye", "Bye", "Bye for now!", "I am Leaving", "I'm off", "Good night!", "Take care", "Catch you later!", "Later", "Laters", "Peace", "Peace out", "I am out", "I am out of here", "I'm out", "I'm out of here","Have a Good day", "Have a nice day","Until next time", "It was nice to see you", "It was nice seeing you", "It was nice to talk to you", "Nice talking with you", "It was nice talking to you", "I've got to get going", "I must be going","I gotta take off", "I gotta head out", "Ok", "Okay","cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "Bye", "cya", "Cheerio!", "Ciao", "Adios", "Bye bye"],
+         "responses": ["Glad to be of help :). And please feel free to contact us.", "Sad to see you go :(", "Talk to you later", "Goodbye!"]
+        },
+	{"tag": "ossec",
+         "patterns": ["ossec", "what is ossec", "what Does OSSEC stands for", "what does OSSEC mean", "whats is the full name of the club", "What the hell is OSSEC", "Who are you?", "What does ossec mean?", "Tell me about this club", "Talk to me about ossec", "What is your area of specialization?"]
+         "responses": ["OSSEC is an abbreviation for Open Source Software Ensi Club. IT is a club founded by young, dynamic, and motivated students within the University Campus of Manouba. Its mission is to promote the open-source culture in TUNISIA which is essentially based on sharing, exchange, and organization of events around the open-source field.", "The full name of the club is Open Source Software Ensi Club. OSSEC was founded by young, dynamic, and motivated students within the University Campus of Manouba. Its mission is to promote the open-source culture in TUNISIA which is essentially based on sharing, exchange, and organization of events around the open-source field."]
+        },
+	{"tag": "age",
+         "patterns": ["how old is the club", "how old is OSSEC", "what is the age of the club", "age?"],
+         "responses": ["OSSEC is 9 years old!", "9 years of success", "9 years of serving the open source community"]
+        },
+	{"tag": "foundation",
+         "patterns": ["when was ossec founded", "what is the date of foundation", "foundation of the club", "where was ossec founded"],
+         "responses": ["Open Source Software Ensi Club OSSEC is a club founded in 2012 by young, dynamic, and motivated students within the University Campus of Manouba at the national school of computer science"]
+        },
+	{"tag": "goal",
+         "patterns": ["what is your goal", "what is the goal of the club", "ossec goal", "What is the purpose of this club?", "What is the purpose of founding ossec?", "What is your purpose?", "Tell me your main objects", "Tell me your main goals", "Talk to me about your main goals", "What are your goals?", "What is your mission?"],
+         "responses": ["OSSEC's goal is to establish the philosophy of open-source and sharing among ENSI and tunisian students.", "OSSEC's mission is to promote the open-source culture in TUNISIA which is essentially based on sharing, exchange, and organization of events around the open-source field."]
+        },
+        {"tag": "axes",
+         "patterns": ["what are the axis of the club", "club axis", "what are the main axes", "how many axis does ossec works on", "what do you work on in ossec", "What are your main areas of work?", "Tell me about your areas of works", "What about your area of work?", "How does ossec work?", "How can you describe your areas of work?"],
+         "responses": ["OSSEC works on 4 axes: Trainings, projects,events and magazine", "OSSEC focus on 4 main axes: Trainings, projects,events and magazine", "OSSEC provides numerous TRAINING COURSES within our National School for Computer Science. In addition to organizing EVENTS, distributing an electronic MAGAZINE and working on several projects along the year."]
+        },
+         {"tag": "poles",
+         "patterns": ["what are the poles of the club", "club poles"],
+         "responses": ["In Ossec we have 4 poles: design, projects, media and sponsoring"],
+        },
+        {"tag": "events",
+         "patterns": ["what are the events of the club", "what are the events organized by OSSEC throughout the year", "club events","events", "what kind of events do you organize", "do you guys plan events", "what is your main event", "What about your events?", "What kind of events do you have?", "Do you have any events?",  "List your events", "Give me a list of your events", "Provide me with a list of your events", "Tell me about your events", "What kind of events do you host?",  "what are the events that you organize?", "What kind of events you organize?", "Which are the events that I can attend?", "Which events are internal?", "Which events are external?", "Is there any external events?", "Is there any upcoming events?", "What are the upcoming events?",  "I am interested in your events", "I've got interested by your events"],
+         "responses": ["Ossec has been organizing TuniHack event since 2015. The club also organizes and participates in internal events such as Install Party, Shell coding challenge ...", "We have three main events organized during the year. Shell coding challenge, TUNIHACK and Install Party."],
+        },
+        {"tag": "tunihack",
+         "patterns": ["what is tunihack", "tunihack","introduce tunihack", "describe tunihack", "tell me more about tunihack", "Can i participate in tunihack", "What are the requirements to participate in tunihack"],
+         "responses": ["TUNIHACK This is a Hackathon during 24 hours and that gives the opportunity to developers to consolidate their coding-skills and real-world challenges. Check our Facebook page for more informations: https://www.facebook.com/tunihackENSI", "TUNIHACK is a HACKATHON that spans a weekend and includes many activities. Through this event, a 24-hour challenge is given to students from all over Tunisia.", "Tunihack is an event where participants will compete in 24-hour challenge where they code to tackle real life. Students from all over the country are eligible to participate in teams.There will also be alot of workshops,conferences and fun activities so stay tuned !"],
+        },
+	{"tag": "Tunihack date",
+         "patterns": ["when will be the next Tunihack", "what will be the date of the next Tunihack"],
+         "responses": ["A date still isn't fixed but follow our social media pages to stay updated!"],
+        },
+        {"tag": "tunihack activities",
+	 "patterns": ["tunihack activities", "what are the activities of tunihack ", "what are tunihack activities"],
+         "responses":["TUNIHACK includes many activitie PitchHack, Workshops, Conferences, magazine articles exhibitions, Gaming sessions, musical show..."],
+        },
+	{"tag": "tunihack's registration",
+	 "patterns": ["How can I join Tunihack?", "How can I participate in Tunihack?", "Tunihack's registration", "Where can I find Tunihack's registration form?"],
+         "responses":["The registration form will be published on our Facebook page:https://www.facebook.com/tunihackENSI"],
+        },
+	{"tag": "scc",
+         "patterns": ["what is scc", "describe scc", "what is shell coding challenge", "describe shell coding challenge", "tell me more about shell coding challenge", "SHELL CODING CHALLENGE", "can you inform me more about the shell coding challenge ", "Can I participate in the shell coding challenge"],
+         "responses": ["This is an event organized by OSSEC in order to test the knowledge of engineering students in Shell Linux programming.", "SHELL CODING CHALLENGE is an internal event which aims to test the knowledge of our members in Shell programming Linux.", "Shell coding challenge is an event where we test our members about the skills they acquired in shell coding.We also have prizes for the winners!"]
+        },
+        {"tag": "scc date",
+         "patterns": ["when will be the next shell coding challenge", "what will be the date of the next shell coding challenge"],
+         "responses": ["Shell coding challenge for this year will be on the 7th of April"],
+        },
+	{"tag": "scc activities",
+         "patterns": ["scc activities", "what are scc activities", "shell coding challenge activities", "what are shell coding challenge activities"],
+         "responses": ["Shell coding challenge is composed of two main parts: Multiple choice questions inspired by the LPIC 101 certification tests and a set of problems to be solved through shell scripts."]
+        },
+        {"tag": "install party",
+         "patterns": ["what is install party", "install party", "describe install party", "what do you do in the install party", "will we install the linux distribution in the install party", "What about the intall party?",  "What kind of event is install party?", "I feel curious about the install party event"],
+         "responses": ["The install party is our first contact with the new members of OSSEC where we help them install linux distribution on their personal computer", "NSTALL PARTY is our first contact with new members, at this event we introduce Linux system to participants and install it on their computers sofar they can participate in our Trainings based on Linux.", "Each year, OSSEC organizes a half-day Install Party during which participants can install the GNU / LINUX distribution on their personal machines."],
+        },
+        {"tag": "projects",
+         "patterns": ["what are the projects of the club", "club projects","pojects", "do you work on any projects", "what are the projects that ossec works on"],
+         "responses": ["In the second semester, we we work on web and AI projects. Tis is a list of this year's projects: magazine OSSEC- SHELL CODING CHALLENGE web site- Hardware Sales Web Application-E library-Tunihack/OSSEC ChatBot-Web application for academic events-web application for OSSEC Member Management- Safety Drive Application"],
+        },
+	{"tag": "magazine",
+         "patterns": ["what is ossec magazine", "describe ossec's magazine", "tell me more about ossec's magazine", "where can i find OSSEC published magazines", "Where can I find your electronic magazine?", "What about your electronic magazine?", "Can you provide me with informations about your electronic magazine?", "I am interested in knowing more about your electronic magazine", "Where can I find your electronic magazine?", "What is the URL of your electronic magazine?"],
+         "responses": ["It is the first open source magazine in Tunisia and it offers everyone in the community the opportunity to share knowledge and experiences. The first edition was published in 2012. You can take a look on all previous editions on: http://magazine.ossec.tn/", "Since 2012, Ossec has distributed an electronic magazine written by club members, and anyone passionate about open source. You can find our latest editions on http://magazine.ossec.tn/"]
+        },
+	{"tag": "trainings",
+         "patterns": ["what types of trainings does ossec offers", "what are the trainings", "what are the trainings this year", "what are the skills I can gain from OSSEC trainings", "what can I learn from joining OSSEC", "What kind of trainig courses do you provide?",  "What are the technologies that you work on?", "What kind of technologies that you work on?", "What are the technologies that you teach?", "Are there any specific technologies that you are specialized in?", "Can you give me an idea about the training courses that you provide?", "I am interested in knowing more about your training courses", "What about your training courses?"],
+         "responses": ["You can widen your skills in Linux, Android, Web and AI with us!", "OSSEC provides numerous training courses within our National School for Computer Science; which are ARTIFICIAL INTELLIGENCE, LINUX, WEB DEVELOPMENT, MOBILE DEVELOPMENT, The Scrum methodology, and everything about GitHub"]
+        },
+	{"tag": "thanks",
+         "patterns": ["thanks", "thank you", "thnx", "thank you that was helpful"],
+         "responses": ["You are welcome.", "Thank you for chatting with me.", "Glad to be of help :). And please feel free to contact us."]
+        },
+	{"tag": "credits",
+         "patterns": ["Who's behind this Chatbot", "Who created you, Mr.Bot", "What is this Chatbot", "Are you a bot","is this a bot","I think you're a bot"],
+         "responses": ["Yup, I am a Chatbot created by a group of ENSI students: Ala Eddine Elabed, Rawan Ghoudi, Achref Abidi, Med Amine Chargui ,Siwar Belloumi and Khaled Krichen, in order to help you know more about OSSEC."],
+        }
+   ]
+}
